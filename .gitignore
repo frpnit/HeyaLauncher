@@ -1,0 +1,14 @@
+.gradle/
+build/
+.idea/
+proguard/
+.navigation/
+captures/
+local.properties
+*.iml
+*.apk
+*.ap_
+*.dex
+*.class
+*.log
+*.jks
