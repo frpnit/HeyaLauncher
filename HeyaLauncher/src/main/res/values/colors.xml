@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ui_base_color">#ff3300</color>
+    <color name="ui_translucent_base_color">#7fff3300</color>
+    <color name="ui_bg_color">#000000</color>
+    <color name="ui_translucent_bg_color">#7f000b1a</color>
+    <color name="ui_text_color">#ffffffff</color>
+    <color name="ui_translucent_text_color">#64FFFFFF</color>
+    <color name="ui_heya_logo_color">#7FFFFFFF</color>
+
+    <color name="ui_grad_translucent_color1_focused">#55ff3300</color>
+    <color name="ui_grad_translucent_color2_focused">#00ff3300</color>
+    <color name="ui_grad_translucent_color1_pressed">#7fff3300</color>
+    <color name="ui_grad_translucent_color2_pressed">#33ff3300</color>
+
+    <color name="ui_grad_color1_focused">#7fff3300</color>
+    <color name="ui_grad_color2_focused">#33ff3300</color>
+    <color name="ui_grad_color1_pressed">#ffff3300</color>
+    <color name="ui_grad_color2_pressed">#7fff3300</color>
+
+    <color name="ui_color_active">#555555</color>
+    <color name="ui_color_focused">#ff3300</color>
+    <color name="ui_color_pressed">#7fff3300</color>
+    <color name="ui_color_disabled_and_activated">#7fff3300</color>
+    <color name="ui_color_disabled">#333333</color>
+
+    <color name="divider">#33FFFFFF</color>
+
+</resources>

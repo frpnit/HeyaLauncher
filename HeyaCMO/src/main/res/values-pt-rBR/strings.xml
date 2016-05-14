@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">HeyaChildModeObserver</string>
+
+    <string name="notification_title">%1$s Inicializado.</string>
+    <string name="notification_description">Serviço em execução.</string>
+    <string name="launch_not_allowed">Não é permitido inicializar este Jogo/App.</string>
+    <string name="download_not_allowed">Download não permitido, removido do sistema.</string>
+
+    <string name="you_are_in">VOCÊ ESTÁ EM:</string>
+    <string name="dialog_boxes_restriction">
+        TODAS AS AÇÕES DA SEÇÃO \"YOU MAY ALSO LIKE\" NÃO SERÃO PERMITIDAS.\n
+        AS CAIXAS DE DIÁLOGO SERÃO PARCIALMENTE ESCONDIDAS POR ESSA TARJA.\n
+        SERÁ POSSÍVEL VER QUE BOTÃO DAS CAIXAS ESTÁ SELECIONADA POR CAUSA DA SUA COR VERMELHA.\n
+        A COR VERMELHA, QUANDO À ESQUERDA, SIGNIFICA \"CANCELAR\", E QUANDO À DIREITA, SIGNIFICA \"OK\".
+    </string>
+</resources>

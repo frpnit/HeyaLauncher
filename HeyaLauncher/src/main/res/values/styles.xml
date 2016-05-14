@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Generated with http://android-holo-colors.com -->
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="HeyaTheme" parent="@android:style/Theme.DeviceDefault.NoActionBar.Fullscreen">
+        <!-- Customize your theme here. -->
+        <item name="android:editTextBackground">@drawable/edittext</item>
+        <item name="android:textColorHighlight">@color/ui_translucent_base_color</item>
+
+        <item name="android:textSelectHandleLeft">@drawable/text_select_handle_left</item>
+        <item name="android:textSelectHandleRight">@drawable/text_select_handle_right</item>
+        <item name="android:textSelectHandle">@drawable/text_select_handle_middle</item>
+
+        <item name="android:listChoiceIndicatorSingle">@drawable/radio_button</item>
+        <item name="android:listChoiceIndicatorMultiple">@drawable/checkbox</item>
+        <item name="android:buttonStyle">@style/Custom_Button</item>
+        <item name="android:seekBarStyle">@style/Custom_SeekBar</item>
+        <item name="android:listViewStyle">@style/Custom_ListView</item>
+        <item name="android:listSeparatorTextViewStyle">@style/PreferenceListHeader</item>
+    </style>
+
+    <style name="Custom_SeekBar" parent="@android:style/Widget.SeekBar">
+        <item name="android:progressDrawable">@drawable/progress_scrubber_horizontal</item>
+        <item name="android:indeterminateDrawable">@drawable/progress_indeterminate_horizontal</item>
+        <item name="android:maxHeight">2dip</item>
+        <item name="android:thumb">@drawable/scrubber_control_selector</item>
+        <item name="android:focusableInTouchMode">true</item>
+    </style>
+
+<!--
+    <style name="Custom_IndeterminateHorizontalProgress" parent="@android:style/Widget.ProgressBar.Horizontal">
+        <item name="android:indeterminateDrawable">@anim/progress_indeterminate_horizontal</item>
+    </style>
+-->
+
+    <style name="Custom_Button" parent="@android:style/Widget.Button">
+        <item name="android:padding">15dp</item>
+        <item name="android:minWidth">120dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@drawable/button</item>
+        <item name="android:textColor">@color/ui_text_color</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <style name="Custom_ListView" parent="@android:style/Widget.ListView">
+        <item name="android:divider">@color/divider</item>
+        <item name="android:dividerHeight">1px</item>
+        <item name="android:listSelector">@drawable/list_selector</item>
+        <item name="android:focusableInTouchMode">true</item>
+    </style>
+
+    <style name="Widget.TextView.ListSeparator" parent="@android:style/Widget.TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:drawable">@drawable/list_selector</item>
+    </style>
+
+    <style name="PreferenceListHeader" parent="Widget.TextView.ListSeparator">
+        <item name="android:textColor">@color/ui_text_color</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:background">@drawable/title_baseline</item>
+        <item name="android:paddingTop">15dp</item>
+        <item name="android:paddingBottom">10dp</item>
+    </style>
+
+    <style name="TransparentDialog" parent="@android:style/Theme">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/appsettings_overlay_in</item>
+        <item name="android:windowExitAnimation">@anim/appsettings_overlay_out</item>
+    </style>
+
+</resources>

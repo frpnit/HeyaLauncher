@@ -1,0 +1,10 @@
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/text1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="16sp"
+    android:gravity="center_vertical"
+    android:paddingTop="@dimen/list_item_paddingTop"
+    android:paddingBottom="@dimen/list_item_paddingTop"
+    android:paddingLeft="@dimen/list_item_paddingLeft"
+    android:paddingRight="@dimen/list_item_paddingLeft" />

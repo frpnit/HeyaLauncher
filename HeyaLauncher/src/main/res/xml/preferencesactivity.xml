@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="settingsPrefs"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent">
+
+
+    <br.frp.heya.gui.CustomPrefCategory android:title="@string/layout_settings">
+
+        <br.frp.heya.gui.CustomEditTextPref
+            android:key="prefLauncherName"
+            android:summary="@string/launcher_name_summary"
+            android:title="@string/launcher_name_title"
+            android:dialogMessage="@string/launcher_name_dialogMessage"
+            android:defaultValue="@string/AppName"
+            />
+
+        <br.frp.heya.gui.CustomListPref
+            android:key="prefLanguage"
+            android:summary="@string/language_summary"
+            android:title="@string/language_title" />
+
+        <br.frp.heya.gui.CustomSeekbarPref
+            android:key="prefAppIconSize"
+            android:defaultValue="0"
+            android:max="200"
+            android:title="@string/appicon_size_title"
+            android:dialogTitle="@string/appicon_size_diag_title"
+            android:summary="@string/appicon_size_summary" />
+
+        <Preference
+            android:key="prefWallpaper"
+            android:summary="@string/wallpaper_summary"
+            android:title="@string/wallpaper_title" />
+
+    </br.frp.heya.gui.CustomPrefCategory>
+
+
+    <br.frp.heya.gui.CustomPrefCategory android:title="@string/applist_settings" android:key="AppsGameslistingSettings">
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="prefAutoSelectFirstIcon"
+            android:summary="@string/autoselectfirsticon_desc"
+            android:title="@string/autoselectfirsricon_title" />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="prefShowSysApps"
+            android:summary="@string/showsysapps_desc"
+            android:title="@string/showsysapps_title" />
+
+        <br.frp.heya.gui.CustomListPref
+            android:key="prefStartupPackage"
+            android:summary="@string/startup_app_desc"
+            android:title="@string/startup_app_title" />
+
+    </br.frp.heya.gui.CustomPrefCategory>
+
+    <br.frp.heya.gui.CustomPrefCategory android:title="@string/parental_controls" android:key="parentalControls">
+
+        <br.frp.heya.gui.CustomListMultiPref
+            android:dialogTitle="@string/hiddenapps_title"
+            android:key="prefHiddenApps"
+            android:summary="@string/hiddenapps_desc"
+            android:title="@string/hiddenapps_title" />
+
+        <br.frp.heya.gui.ChildModeDialogPref
+            android:defaultValue="false"
+            android:key="prefChildModeObservationEnabled"
+            android:summary="@string/enable_child_mode_summary"
+            android:title="@string/enable_child_mode_title"
+            android:dialogTitle="@string/enable_child_mode_title" />
+
+    </br.frp.heya.gui.CustomPrefCategory>
+
+    <br.frp.heya.gui.CustomPrefCategory android:title="@string/importExport" android:key="backupSettings">
+
+        <Preference
+            android:key="prefExportCurrentSettings"
+            android:summary="@string/importexport_export_summary"
+            android:title="@string/importexport_export_title" />
+
+        <Preference
+            android:key="prefImportCurrentSettings"
+            android:summary="@string/importexport_import_summary"
+            android:title="@string/importexport_import_title" />
+
+    </br.frp.heya.gui.CustomPrefCategory>
+
+    <br.frp.heya.gui.CustomPrefCategory android:title="@string/about">
+
+        <Preference
+            android:key="prefAbout"
+            android:title="@string/about_title" />
+
+    </br.frp.heya.gui.CustomPrefCategory>
+
+</PreferenceScreen>

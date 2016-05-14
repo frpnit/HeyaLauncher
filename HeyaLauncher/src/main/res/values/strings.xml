@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- String resources (non translatable) -->
+    <string name="AppName">HEYA</string>
+
+    <!-- To be translated -->
+    <string name="MoveAppAndClickToDrop">Now move app and click again to drop \n(Press RETURN to CANCEL)</string>
+    <string name="MoveAppAndClickToDropWhenStartedByMenu">Now move app and click to drop \n(Press RETURN to CANCEL)</string>
+    <string name="loading">loading</string>
+    <string name="parental_controls">Parental Controls</string>
+    <string name="enable_child_mode_summary">Restrict access to your children. READ CAREFULLY THE FOLLOWING POPUP before confirmation; it contains all instructions about this option.</string>
+    <string name="enable_child_mode_title">Enable Child Mode</string>
+    <string name="enable_child_mode_warning">ATTENTION! READ CAREFULLY INSTRUCTIONS BELOW, OR YOU WON\'T BE ABLE TO REVERT FROM CHILD MODE TO NORMAL MODE UNLESS YOU
+        HAVE LEFT A WAY TO CHANGE DEFAULT LAUNCHER, OR YOU ARE UP TO USE ADB AND UNINSTALL THIS APP.</string>
+    <string name="enable_child_mode_note_title">Important note for Child Mode to work correctly:</string>
+    <string name="enable_child_mode_note_desc">Please be sure that "Don't keep activities" setting in SYSTEM>MANAGE>ADVANCED>DEVELOPER OPTIONS is enabled. If not,
+        Child Mode will continue to work, but with a caveat: If one call "System Menu" right from the launcher, and so launch a game in "You May Also Like" section,
+        everything else (apps and services) is killed by Android, so Child Mode will be disable until the user get back to HEYA.</string>
+    <string name="enable_child_mode_how_exit_title">How to exit Child Mode:</string>
+    <string name="enable_child_mode_how_exit_desc">Open the "About" Dialog in "Settings" section. While opened, you must touch/click every screen corner,
+        using your Ouya Controller touch area or some USB mouse. You won\'t have any visual clues when you touch a corner successfully, but you must hear a "click"
+        sound when doing that in each corner, so pay attention to the sounds. If the launcher restarts, it means you are in Normal Mode again. If not, you can
+        reopen "About" Dialog as often as necessary.</string>
+    <string name="enable_child_mode_restrict_title">Child Mode will restrict the following:</string>
+    <string name="enable_child_mode_restrict_desc1">- Hidden Games/Apps list will be applied.</string>
+    <string name="enable_child_mode_restrict_desc2">- "Show System Apps" won\'t be applied, so this apps won\'t be accessible.</string>
+    <string name="enable_child_mode_restrict_desc3">- App settings overlay will be disabled.</string>
+    <string name="enable_child_mode_restrict_desc4">- Startup application won\'t be launched.</string>
+    <string name="enable_child_mode_restrict_desc5">- Inside "System", "Ouya Function Screens" category will be hidden.</string>
+    <string name="enable_child_mode_restrict_desc6">- Inside "Settings", "Games &amp; Apps Listing Settings", "Parental Controls" and "Import / Export" categories will be hidden.</string>
+    <string name="enable_child_mode_restrict_desc7">- On "System Menu" overlay, "Ouya Home" will revert back to HEYA Launcher screen after a while
+(usually one second - works better if you haven\'t entered on stock launcher before). A caveat:
+disabling Child Mode may throw you back to stock launcher, if "Ouya Home" was used in some
+moment or if any app/game was launched through "You May Also Like" on System Menu Overlay section.</string>
+    <string name="enable_child_mode_restrict_desc8">- On Ouya System Overlay menu, one won\'t be able to launch or download any game/app on "You
+May Also Like" section. Any game/app launched will revert back to current game/app after a while (usually one second). Downloads will be deleted and
+those actions will be warned. Two caveats: 1) disabling Child Mode may allow previously denied downloads, so you must enter stock launcher
+and cancel them all. 2) This routine searchs for any APKs (files with .apk extension) on SDCard and USBDrive roots, so DON\'T SAVE ANY APKs YOU WANT TO BACKUP
+DIRECTLY INTO THESE DIRECTORIES. Create a folder and save those files inside.</string>
+    <string name="child_observer_not_found">Child Mode Observer App not installed! Please install it before trying to enable Child Mode.</string>
+
+    <string name="iptitle">IP Address</string>
+    <string name="hostnametitle">Hostname</string>
+    <string name="notfound">not found..</string>
+    <string name="startup_app_desc">App that is started on HEYA startup.</string>
+    <string name="startup_app_title">Startup Application</string>
+    <string name="showsysapps_desc">Show also system apps in app list.</string>
+    <string name="showsysapps_title">Show System Apps</string>
+    <string name="hiddenapps_desc">Games and Apps that shall not be shown in apps list, while in Child Mode.</string>
+    <string name="hiddenapps_title">Hidden Games/Apps</string>
+    <string name="applist_settings">Games &amp; Apps Listing Settings</string>
+    <string name="is_invalid_number">is invalid for this setting!</string>
+    <string name="autoselectfirsticon_desc">Auto select the first icon when switching to the Games &amp; Apps screen.</string>
+    <string name="autoselectfirsricon_title">Auto Select First Game/App Icon</string>
+    <string name="leftbar_allapps">GAMES\n&amp; APPS</string>
+    <string name="leftbar_infos">SYSTEM</string>
+    <string name="leftbar_settings">SETTINGS</string>
+    <string name="appsettings_sort">Move</string>
+    <string name="appsettings_details">App Details</string>
+    <string name="appsettings_advanced">Advanced Settings</string>
+    <string name="language_settings">Language Settings</string>
+    <string name="language_summary">Set language manually.</string>
+    <string name="language_title">Language</string>
+    <string name="wifissidtitle">WiFi / WLAN Name (SSID)</string>
+    <string name="layout_settings">Layout Settings</string>
+    <string name="wallpaper_summary">Set a custom background image / wallpaper for HEYA.</string>
+    <string name="wallpaper_title">Background Image / Wallpaper</string>
+    <string name="wallpaper_dialog_title">JPG / PNG - 1920x1080px</string>
+    <string name="remove_wallpaper">Remove Wallpaper</string>
+    <string name="select_wallpaper">Select Wallpaper</string>
+    <string name="ouya_screens">Ouya Function Screens</string>
+    <string name="ouya_discover_summary">Enters Ouya Discover section.</string>
+    <string name="ouya_discover_title">Discover</string>
+    <string name="ouya_pairing_summary">Enters Ouya Controller Pairing section.</string>
+    <string name="ouya_pairing_title">Controller Pairing</string>
+    <string name="ouya_network_summary">Enters Ouya Network Setup section.</string>
+    <string name="ouya_network_title">Network Setup</string>
+    <string name="ouya_manage_summary">Enters Ouya Manage section.</string>
+    <string name="ouya_manage_title">Manage</string>
+    <string name="system_informative">System Information</string>
+    <string name="devicedetailstitle">Device Details</string>
+    <string name="launcher_name_title">Launcher Name</string>
+    <string name="launcher_name_summary">Customize launcher\'s name to any name you want.</string>
+    <string name="launcher_name_dialogMessage">Write below desired launcher name. For reverting back to default name, just leave the field blank.
+        The name can\'t be bigger than 32 characters, otherwise it will be cropped.</string>
+    <string name="appicon_size_title">App Icon Size - %1$d</string>
+    <string name="appicon_size_diag_title">App Icon Size</string>
+    <string name="appicon_size_summary">Size between 0 and 200 (in DPI) of app list icons. Set to 0 for default.</string>
+    <string name="appicon_size_short_summary">Size between 0 and 200 (in DPI). Set to 0 for default.</string>
+    <string name="importExport">Import / Export</string>
+    <string name="importexport_export_summary">Export current HEYA settings to ZIP-File.</string>
+    <string name="importexport_export_title">Export</string>
+    <string name="importexport_import_summary">Import HEYA Settings from ZIP-File. Be sure to only import trusted ZIP-Files!</string>
+    <string name="importexport_import_title">Import</string>
+    <string name="deviceuptime">Uptime</string>
+    <string name="uptimedesc">Device is up for %1$s (startup: %2$s)</string>
+    <string name="about">About</string>
+    <string name="about_title">Information about this app</string>
+    <string name="heya_app_title">HEYA version 1.0</string>
+    <string name="heya_app_summary">HEYA alternative launcher by Fabrício Ramos Pereira.\nUsername @ Ouyaforum(http://ouyaforum.com): frpnit\nemail: frpnit@gmail.com</string>
+    <string name="resource_title">Resources</string>
+    <string name="resource_summary_1">- Firestarter (Non-Root Launcher Replacement / App-Drawer for Amazon FireTV)\nhttps://github.com/sphinx02/FireStarter</string>
+    <string name="resource_summary_2">- Monoglyceride Font Family (free for personal use)\nhttp://www.moorstation.org/typoasis/designers/tepidmonkey/index.htm</string>
+    <string name="resource_summary_3">- League Spartan Font (free, OFL font)\nhttps://www.theleagueofmoveabletype.com/league-spartan</string>
+    <string name="resource_summary_4">- Montserrat Font Family (free, OFL font)\nhttp://montserrat.zkysky.com.ar/en</string>
+    <string name="resource_summary_5">- Android Holo Colors Generator site for UI general elements customization\nhttp://android-holo-colors.com/</string>
+    <string name="resource_summary_6">- Custom Font class - https://github.com/rulych/Custom-Font-on-Android</string>
+    <string name="resource_summary_7">- Custom Seekbar preference\nhttp://www.codeproject.com/Articles/163541/SeekBar-Preference</string>
+    <string name="resource_summary_8">- Custom Listpreference (base for all custom dialogs) from Reinier post @ http://stackoverflow.com/a/14790665</string>
+    <string name="resource_summary_9">- Baxylauncher source code for some specific functions, like loading Ouya game icons\nhttps://github.com/frankkienl/BaxyLauncherOUYA/blob/master/src/nl/frankkie/baxy/</string>
+    <string name="resource_summary_10">- And countless helping posts from StackOverflow, without it I couldn\'t have solved many, many problems and doubts that appeared during all development\nhttp://stackoverflow.com.</string>
+
+    <string name="thanks_title">Acknowledgements</string>
+    <string name="thanks_summary_1">- sphinx02 for open-source Firestarter.</string>
+    <string name="thanks_summary_2">- Ouyaforum nice and supportive people - specially Eldon McGuinness for answers, for sending me Controller Pairing source code, and for some more (direct or indirect) guidance.</string>
+
+    <string name="setting_export_failed">Settings export failed..</string>
+    <string name="setting_export_succeed">Settings exported to: </string>
+    <string name="setting_import_failed">Settings import failed:</string>
+    <string name="setting_import_succeed">Settings imported successful, restart..</string>
+
+    <string name="button_ok">OK</string>
+    <string name="button_cancel">Cancel</string>
+
+    <string name="confirm_subtitle">SELECT / CONFIRM</string>
+    <string name="cancel_subtitle">BACK / CANCEL</string>
+    <string name="options_subtitle">OTHER OPTIONS</string>
+
+    <string name="no_pairing_activity">Controller Pairing activity not found.</string>
+</resources>

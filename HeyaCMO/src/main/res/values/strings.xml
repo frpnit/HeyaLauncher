@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">HeyaChildModeObserver</string>
+
+    <string name="notification_title">%1$s Started.</string>
+    <string name="notification_description">Service is running.</string>
+    <string name="launch_not_allowed">Launching this Game/App is not allowed.</string>
+    <string name="download_not_allowed">Download not allowed, removed from system.</string>
+
+    <string name="you_are_in">YOU ARE IN:</string>
+    <string name="dialog_boxes_restriction">
+        ALL OF \"YOU MAY ALSO LIKE\" SECTION ACTIONS WON’T BE ALLOWED.\n
+        DIALOG BOXES WILL BE PARTIALLY HIDDEN BY THIS OVERLAY.\n
+        IT WILL BE POSSIBLE TO SEE WICH DIALOG BUTTON IS SELECTED BECAUSE ITS RED COLOR.\n
+        RED COLOR AT LEFT MEANS \"CANCEL\", AT RIGHT MEANS \"OK\".
+    </string>
+</resources>

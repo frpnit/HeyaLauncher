@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+** Copyright 2011, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License"); 
+** you may not use this file except in compliance with the License. 
+** You may obtain a copy of the License at 
+**
+**     http://www.apache.org/licenses/LICENSE-2.0 
+**
+** Unless required by applicable law or agreed to in writing, software 
+** distributed under the License is distributed on an "AS IS" BASIS, 
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+** See the License for the specific language governing permissions and 
+** limitations under the License.
+*/
+-->
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" android:oneshot="false">
+
+    <item android:duration="100">
+        <shape><gradient android:type="linear"
+            android:startColor="@color/ui_grad_color2_focused" android:centerColor="@color/ui_grad_color1_pressed" android:endColor="@color/ui_grad_color2_focused"
+            android:centerX="0%" android:angle="0"/>
+        </shape>
+    </item>
+
+    <item android:duration="100">
+        <shape><gradient android:type="linear"
+            android:startColor="@color/ui_grad_color2_focused" android:centerColor="@color/ui_grad_color1_pressed" android:endColor="@color/ui_grad_color2_focused"
+            android:centerX="10%" android:angle="0"/>
+        </shape>
+    </item>
+
+    <item android:duration="100">
+        <shape><gradient android:type="linear"
+            android:startColor="@color/ui_grad_color2_focused" android:centerColor="@color/ui_grad_color1_pressed" android:endColor="@color/ui_grad_color2_focused"
+            android:centerX="20%" android:angle="0"/>
+        </shape>
+    </item>
+
+    <item android:duration="100">
+        <shape><gradient android:type="linear"
+            android:startColor="@color/ui_grad_color2_focused" android:centerColor="@color/ui_grad_color1_pressed" android:endColor="@color/ui_grad_color2_focused"
+            android:gradientRadius="10dp"
+            android:centerX="30%" android:angle="0"/>
+        </shape>
+    </item>
+
+    <item android:duration="100">
+        <shape><gradient android:type="linear"
+            android:startColor="@color/ui_grad_color2_focused" android:centerColor="@color/ui_grad_color1_pressed" android:endColor="@color/ui_grad_color2_focused"
+            android:centerX="40%" android:angle="0"/>
+        </shape>
+    </item>
+
+    <item android:duration="100">
+        <shape><gradient android:type="linear"
+            android:startColor="@color/ui_grad_color2_focused" android:centerColor="@color/ui_grad_color1_pressed" android:endColor="@color/ui_grad_color2_focused"
+            android:gradientRadius="10dp"
+            android:centerX="50%" android:angle="0"/>
+        </shape>
+    </item>
+
+    <item android:duration="100">
+        <shape><gradient android:type="linear"
+            android:startColor="@color/ui_grad_color2_focused" android:centerColor="@color/ui_grad_color1_pressed" android:endColor="@color/ui_grad_color2_focused"
+            android:centerX="60%" android:angle="0"/>
+        </shape>
+    </item>
+
+    <item android:duration="100">
+        <shape><gradient android:type="linear"
+            android:startColor="@color/ui_grad_color2_focused" android:centerColor="@color/ui_grad_color1_pressed" android:endColor="@color/ui_grad_color2_focused"
+            android:gradientRadius="10dp"
+            android:centerX="70%" android:angle="0"/>
+        </shape>
+    </item>
+
+    <item android:duration="100">
+        <shape><gradient android:type="linear"
+            android:startColor="@color/ui_grad_color2_focused" android:centerColor="@color/ui_grad_color1_pressed" android:endColor="@color/ui_grad_color2_focused"
+            android:centerX="80%" android:angle="0"/>
+        </shape>
+    </item>
+
+    <item android:duration="100">
+        <shape><gradient android:type="linear"
+            android:startColor="@color/ui_grad_color2_focused" android:centerColor="@color/ui_grad_color1_pressed" android:endColor="@color/ui_grad_color2_focused"
+            android:gradientRadius="10dp"
+            android:centerX="90%" android:angle="0"/>
+        </shape>
+    </item>
+
+    <item android:duration="100">
+        <shape><gradient android:type="linear"
+            android:startColor="@color/ui_grad_color2_focused" android:centerColor="@color/ui_grad_color1_pressed" android:endColor="@color/ui_grad_color2_focused"
+            android:centerX="100%" android:angle="0"/>
+        </shape>
+    </item>
+
+
+    <item android:duration="100">
+        <shape><gradient android:type="linear"
+            android:startColor="@color/ui_grad_color1_pressed" android:centerColor="@color/ui_grad_color2_focused" android:endColor="@color/ui_grad_color1_pressed"
+            android:centerX="10%" android:angle="0"/>
+        </shape>
+    </item>
+
+    <item android:duration="100">
+        <shape><gradient android:type="linear"
+            android:startColor="@color/ui_grad_color1_pressed" android:centerColor="@color/ui_grad_color2_focused" android:endColor="@color/ui_grad_color1_pressed"
+            android:centerX="20%" android:angle="0"/>
+        </shape>
+    </item>
+
+    <item android:duration="100">
+        <shape><gradient android:type="linear"
+            android:startColor="@color/ui_grad_color1_pressed" android:centerColor="@color/ui_grad_color2_focused" android:endColor="@color/ui_grad_color1_pressed"
+            android:centerX="30%" android:angle="0"/>
+        </shape>
+    </item>
+
+    <item android:duration="100">
+        <shape><gradient android:type="linear"
+            android:startColor="@color/ui_grad_color1_pressed" android:centerColor="@color/ui_grad_color2_focused" android:endColor="@color/ui_grad_color1_pressed"
+            android:centerX="40%" android:angle="0"/>
+        </shape>
+    </item>
+
+    <item android:duration="100">
+        <shape><gradient android:type="linear"
+            android:startColor="@color/ui_grad_color1_pressed" android:centerColor="@color/ui_grad_color2_focused" android:endColor="@color/ui_grad_color1_pressed"
+            android:centerX="50%" android:angle="0"/>
+        </shape>
+    </item>
+
+    <item android:duration="100">
+        <shape><gradient android:type="linear"
+            android:startColor="@color/ui_grad_color1_pressed" android:centerColor="@color/ui_grad_color2_focused" android:endColor="@color/ui_grad_color1_pressed"
+            android:centerX="60%" android:angle="0"/>
+        </shape>
+    </item>
+
+    <item android:duration="100">
+        <shape><gradient android:type="linear"
+            android:startColor="@color/ui_grad_color1_pressed" android:centerColor="@color/ui_grad_color2_focused" android:endColor="@color/ui_grad_color1_pressed"
+            android:centerX="70%" android:angle="0"/>
+        </shape>
+    </item>
+
+    <item android:duration="100">
+        <shape><gradient android:type="linear"
+            android:startColor="@color/ui_grad_color1_pressed" android:centerColor="@color/ui_grad_color2_focused" android:endColor="@color/ui_grad_color1_pressed"
+            android:centerX="80%" android:angle="0"/>
+        </shape>
+    </item>
+
+    <item android:duration="100">
+        <shape><gradient android:type="linear"
+            android:startColor="@color/ui_grad_color1_pressed" android:centerColor="@color/ui_grad_color2_focused" android:endColor="@color/ui_grad_color1_pressed"
+            android:centerX="90%" android:angle="0"/>
+        </shape>
+    </item>
+
+</animation-list>

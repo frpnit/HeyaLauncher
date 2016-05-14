@@ -1,0 +1,29 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="prefdividermarginbottom">5dp</dimen>
+    <dimen name="prefheadermarginbottom">14dp</dimen>
+    <dimen name="prefheadermargintop">14dp</dimen>
+    <dimen name="prefdividerbigheight">2dp</dimen>
+    <dimen name="prefdividersmallheight">1dp</dimen>
+    <dimen name="prefdividermargintop">5dp</dimen>
+    <dimen name="textsizeinfotitle">20dp</dimen>
+    <dimen name="textsizeinfo">16dp</dimen>
+    <dimen name="infodividerheight">1dp</dimen>
+    <dimen name="infodividermargintopbottom">10dp</dimen>
+    <dimen name="settingspadding">20dp</dimen>
+    <dimen name="settingspadding_bottom_text">5sp</dimen>
+    <dimen name="settingspadding_bottom">15dp</dimen>
+    <dimen name="appsettingsoptionpadding">10dp</dimen>
+    <dimen name="appsettingboxsize">140dp</dimen>
+    <dimen name="appsettingboxsize_small">120dp</dimen>
+    <dimen name="settingsiconsize">60dp</dimen>
+    <dimen name="applisting_itemsize">135dp</dimen>
+    <dimen name="list_item_paddingTop">12dp</dimen>
+    <dimen name="list_item_paddingLeft">20dp</dimen>
+
+    <item type="dimen" name="bg_grad_center_x">0.1</item>
+    <item type="dimen" name="bg_grad_center_y">0.1</item>
+    <item type="dimen" name="bg_grad_size">1900.0</item>
+</resources>

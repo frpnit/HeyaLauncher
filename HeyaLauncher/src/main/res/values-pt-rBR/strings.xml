@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- String resources (non translatable) -->
+    <string name="AppName">HEYA</string>
+
+    <!-- To be translated -->
+    <string name="MoveAppAndClickToDrop">Agora mova o aplicativo e clique novamente para confirmar nova posição \n(Aperte VOLTAR ou CANCELAR)</string>
+    <string name="MoveAppAndClickToDropWhenStartedByMenu">Agora mova o aplicativo e clique novamente para confirmar nova posição \n(Aperte VOLTAR ou CANCELAR)</string>
+    <string name="loading">carregando</string>
+    <string name="parental_controls">Controle dos Pais</string>
+    <string name="enable_child_mode_summary">Restrinja o acesso às suas crianças. LEIA ATENTAMENTE O POPUP SEGUINTE antes de confirmar; ele contém todas as
+        instruções sobre esta opção.</string>
+    <string name="enable_child_mode_title">Habilitar Modo Infantil</string>
+    <string name="enable_child_mode_warning">ATENÇÃO! LEIA ATENTAMENTE AS INSTRUÇÕES ABAIXO, OU VOCÊ NÃO SERÁ APTO A REVERTER DO MODO INFANTIL AO MODO NORMAL
+        A NÃO SER QUE VOCÊ TENHA MANTIDO ALGUMA MANEIRA DE MUDAR O LAUNCHER PADRÃO, OU ESTIVER APTO A USAR ADB E DESINSTALAR ESTE APLICATIVO.</string>
+    <string name="enable_child_mode_note_title">Nota importante para que o Modo Infantil funcione corretamente:</string>
+    <string name="enable_child_mode_note_desc">Favor certificar-se de que a opção "Don't keep activities" em SYSTEM>MANAGE>ADVANCED>DEVELOPER OPTIONS está habilitada.
+        Caso contrário, o Modo Infantil continuará funcionando, porém com uma restrição: Se alguém abrir o menu sobreposto "System Menu" enquanto estiver no launcher, e rodar
+        um jogo da seção "You May Also Like", todos os outros aplicativos e serviços são terminados pelo Android, assim o Modo Infantil será desabilitado até que o
+        usuário execute o HEYA novamente.
+    </string>
+    <string name="enable_child_mode_how_exit_title">Como sair do Modo Infantil:</string>
+    <string name="enable_child_mode_how_exit_desc">
+        Abra a janela "Sobre" na seção "Configs". Com a mesma aberta, você deve tocar/clicar cada canto
+        da tela, usando a área de toque do controle do Ouya ou algum mouse USB. Você não terá nenhuma
+        indicação visual ao tocar em um canto da tela, mas você deverá ouvir um som de "clique" quando
+        o fizer em cada canto, então preste atenção aos sons. Se o launcher reiniciar, significa que
+        você está no Modo Normal novamente. Se não, você pode reabrir a janela "Sobre" quantas vezes for necessário.</string>
+    <string name="enable_child_mode_restrict_title">O Modo Infantil restringe o seguinte:</string>
+    <string name="enable_child_mode_restrict_desc1">- A lista de jogos/aplicativos para esconder será aplicada.</string>
+    <string name="enable_child_mode_restrict_desc2">- A opção "Mostrar Aplicativos do Sistema" será descartada e esses aplicativos ficarão inacessíveis.</string>
+    <string name="enable_child_mode_restrict_desc3">- A tarja de configurações de aplicativo será desabilitada.</string>
+    <string name="enable_child_mode_restrict_desc4">- O aplicativo escolhido para ser executado logo após a inicialização do HEYA, não o será.</string>
+    <string name="enable_child_mode_restrict_desc5">- Dentro de "Sistema", a categoria "Telas de Funções do Ouya" será escondida.</string>
+    <string name="enable_child_mode_restrict_desc6">- Dentro de "Configs", as categorias "Configurações de Listagem de Jogos &amp; Aplicativos",
+        "Controle dos Pais" e "Importar / Exportar" serão escondidas.</string>
+    <string name="enable_child_mode_restrict_desc7">- No menu sobreposto "System Menu", "Ouya Home" vai reverter de volta à tela do HEYA Launcher, depois de alguns
+        instantes (geralmente um segundo - funciona melhor se você não entrou no launcher padrão antes). Um aviso: desabilitar o Modo Infantil pode enviá-lo de volta
+        ao launcher padrão, se você tiver ou usado o "Ouya Home" em algum momento, ou se algum aplicativo/jogo foi executado através da seção "You May Also Like"
+        contida no menu sobreposto "System Menu".</string>
+    <string name="enable_child_mode_restrict_desc8">- No menu sobreposto "System Menu", ninguém pode executar ou baixar quaisquer jogos/aplicativos da seção
+        "You May Also Like". Qualquer jogo/aplicativo executado será revertido novamente ao jogo/aplicativo atual, depois de alguns instantes (geralmente um segundo).
+        Downloads serão deletados e essas ações serão avisadas. 2 avisos: 1) desabilitar o Modo Infantil poderá acabar permitindo os downloads previamente negados,
+        então você deverá entrar no launcher padrão e cancelar a todos. 2) Esta rotina procura por quaisquer APKs (arquivos com extensão .apk) nas raízes do
+        cartão SD ou drive USB, logo NÃO SALVE NENHUM APK QUE QUEIRA GUARDAR COMO CÓPIA RESERVA DIRETAMENTE NESSES DIRETÓRIOS. Crie uma pasta para salvar
+        estes arquivos dentro das mesmas.</string>
+    <string name="child_observer_not_found">Aplicativo Child Mode Observer não instalado! Favor instalar antes de tentar habilitar o Modo Infantil.</string>
+
+    <string name="iptitle">Endereço IP</string>
+    <string name="hostnametitle">Nome do Hospedeiro</string>
+    <string name="notfound">não encontrado..</string>
+    <string name="startup_app_desc">Aplicativo que é executado logo após a inicialização do HEYA.</string>
+    <string name="startup_app_title">Aplicativo da Inicialização</string>
+    <string name="showsysapps_desc">Mostra também aplicativos de sistema na lista de aplicativos.</string>
+    <string name="showsysapps_title">Mostrar Aplicativos de Sistema</string>
+    <string name="hiddenapps_desc">Jogos e Aplicativos que não devem aparecer na lista de aplicativos, no Modo Infantil.</string>
+    <string name="hiddenapps_title">Jogos/Aplicativos para Esconder</string>
+    <string name="applist_settings">Configurações de Listagem de Jogos &amp; Aplicativos</string>
+    <string name="is_invalid_number">é inválido para esta opção!</string>
+    <string name="autoselectfirsticon_desc">Selecionar automaticamente o primeiro ícone sempre ao alternar para a tela de Jogos e Apps.</string>
+    <string name="autoselectfirsricon_title">Selecionar Automaticamente o Primeiro Ícone de Jogo/Aplicativon</string>
+    <string name="leftbar_allapps">JOGOS\n&amp; APPS</string>
+    <string name="leftbar_infos">SISTEMA</string>
+    <string name="leftbar_settings">CONFIGS</string>
+    <string name="appsettings_sort">Mover</string>
+    <string name="appsettings_details">Detalhes do Aplicativo</string>
+    <string name="appsettings_advanced">Opções Avançadas</string>
+    <string name="language_settings">Opções de Linguagem</string>
+    <string name="language_summary">Ajustar a linguagem manualmente.</string>
+    <string name="language_title">Linguagem</string>
+    <string name="wifissidtitle">Nome do WiFi / WLAN (SSID)</string>
+    <string name="layout_settings">Opções de Layout</string>
+    <string name="wallpaper_summary">Personalizar imagem de fundo / papel de parede do HEYA.</string>
+    <string name="wallpaper_title">Imagem de Fundo / Papel de Parede</string>
+    <string name="wallpaper_dialog_title">JPG / PNG - 1920x1080px</string>
+    <string name="remove_wallpaper">Remover Imagem</string>
+    <string name="select_wallpaper">Selecionar Imagem</string>
+    <string name="ouya_screens">Telas de Funções do Ouya</string>
+    <string name="ouya_discover_summary">Entra na seção "Discover" do Ouya.</string>
+    <string name="ouya_discover_title">Descobrir</string>
+    <string name="ouya_pairing_summary">Entra na seção de Pareamento de Controles do Ouya.</string>
+    <string name="ouya_pairing_title">Parear Controles</string>
+    <string name="ouya_network_summary">Entra na seção de Configuração de Rede do Ouya.</string>
+    <string name="ouya_network_title">Configuração de Rede</string>
+    <string name="ouya_manage_summary">Entra na seção "Manage" do Ouya.</string>
+    <string name="ouya_manage_title">Gerenciamento</string>
+    <string name="system_informative">Informações do Sistema</string>
+    <string name="devicedetailstitle">Detalhes do Console</string>
+    <string name="launcher_name_title">Nome do Launcher</string>
+    <string name="launcher_name_summary">Altere o nome do launcher para o nome que desejar.</string>
+    <string name="launcher_name_dialogMessage">Escreva no campo abaixo o nome desejado para o launcher. Para voltar ao nome padrão, basta deixar o campo abaixo em branco.
+        O nome não pode ter mais de 32 caracteres, se for maior ele será cortado.</string>
+    <string name="appicon_size_title">Tamanho do Ícone dos Aplicativos - %1$d</string>
+    <string name="appicon_size_diag_title">Tamanho do Ícone dos Aplicativos</string>
+    <string name="appicon_size_summary">Tamanho entre 0 e 200 (em DPI) dos ícones da lista de aplicativos. Selecione 0 para o tamanho padrão.</string>
+    <string name="appicon_size_short_summary">Tamanho entre 0 e 200 (in DPI). Selecione 0 para o tamanho padrão.</string>
+    <string name="importExport">Importar / Exportar</string>
+    <string name="importexport_export_summary">Exportar as configurações atuais do HEYA para um arquivo ZIP.</string>
+    <string name="importexport_export_title">Exportar</string>
+    <string name="importexport_import_summary">Importar as configurações do HEYA a partir do arquivo ZIP. Certifique-se de importar apenas arquivos ZIP confiáveis!</string>
+    <string name="importexport_import_title">Importar</string>
+    <string name="deviceuptime">Tempo em que o Console Permanece Ligado </string>
+    <string name="uptimedesc">Console ligado durante %1$s (Ligado em: %2$s)</string>
+    <string name="about">Sobre</string>
+    <string name="about_title">Informação sobre este aplicativo</string>
+    <string name="heya_app_title">HEYA versão 1.0</string>
+    <string name="heya_app_summary">HEYA launcher alternativo por Fabrício Ramos Pereira.\n Nome de usuário no Ouyaforum(http://ouyaforum.com): frpnit\nemail: frpnit@gmail.com</string>
+    <string name="resource_title">Recursos Pesquisados/Utilizados</string>
+    <string name="resource_summary_1">- Firestarter (Launcher alternativo para Amazon FireTV, funciona sem necessidade de Root)\nhttps://github.com/sphinx02/FireStarter</string>
+    <string name="resource_summary_2">- Família Tipográfica Monoglyceride (gratuita para uso pessoal)\nhttp://www.moorstation.org/typoasis/designers/tepidmonkey/index.htm</string>
+    <string name="resource_summary_3">- Fonte Tipográfica League Spartan (gratuita, licença OFL)\nhttps://www.theleagueofmoveabletype.com/league-spartan</string>
+    <string name="resource_summary_4">- Família Tipográfica Montserrat (gratuita, licença OFL)\nhttp://montserrat.zkysky.com.ar/en</string>
+    <string name="resource_summary_5">- Site "Android Holo Colors Generator" para personalização de elementos comuns de interface\nhttp://android-holo-colors.com/</string>
+    <string name="resource_summary_6">- Classe para uso de fontes personalizadas - https://github.com/rulych/Custom-Font-on-Android</string>
+    <string name="resource_summary_7">- Configuração tipo barra de valor progressivo personalizada\nhttp://www.codeproject.com/Articles/163541/SeekBar-Preference</string>
+    <string name="resource_summary_8">- Configuração tipo listagem personalizada (base para todos os diálogos personalizados) retirado do post de Reinier em http://stackoverflow.com/a/14790665</string>
+    <string name="resource_summary_9">- Código-fonte de Baxylauncher para algumas funções específicas, tais como o carregamento de ícones específicos do Ouya\nhttps://github.com/frankkienl/BaxyLauncherOUYA/blob/master/src/nl/frankkie/baxy/</string>
+    <string name="resource_summary_10">- E inúmeras ajudas retiradas de postagens do StackOverflow, sem as quais eu não teria resolvido muitos problemas e dúvidas que apareceram durante todo o desenvolvimento\nhttp://stackoverflow.com.</string>
+
+    <string name="thanks_title">Agradecimentos</string>
+    <string name="thanks_summary_1">- sphinx02 pelo código-aberto do Firestarter.</string>
+    <string name="thanks_summary_2">- Ao pessoal bacana e prestativo do Ouyaforum - especialmente Eldon McGuinness por responder minhas dúvidas, me enviar o código-fonte do Pareamento de Controles, e por alguns outros direcionamentos mais (diretos ou indiretos).</string>
+
+    <string name="setting_export_failed">Falha ao exportar as Configurações..</string>
+    <string name="setting_export_succeed">Configurações exportadas para: </string>
+    <string name="setting_import_failed">Falha ao importar as Configurações:</string>
+    <string name="setting_import_succeed">Configurações importadas com sucesso, reiniciando..</string>
+
+    <string name="button_ok">OK</string>
+    <string name="button_cancel">Cancelar</string>
+
+    <string name="confirm_subtitle">SELECIONAR / CONFIRMAR</string>
+    <string name="cancel_subtitle">VOLTAR / CANCELAR</string>
+    <string name="options_subtitle">OUTRAS OPÇÕES</string>
+
+    <string name="no_pairing_activity">Atividade de Pareamento de Controles não foi encontrada.</string>
+</resources>

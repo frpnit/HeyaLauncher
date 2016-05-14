@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ui_base_color">#ff3300</color>
+    <color name="ui_line_color">#666666</color>
+    <color name="ui_text_color">#ffffff</color>
+
+    <color name="ui_grad_color1">#000000</color>
+    <color name="ui_grad_color2">#333333</color>
+</resources>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/curgameinfocontent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/bg_strip">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp">
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/curgameinfoText"
+                android:layout_width="match_parent"
+                android:layout_marginBottom="-10dp"
+                android:layout_height="214px"
+                android:layout_gravity="start|center"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/curgameTit"
+                    android:text="@string/you_are_in"
+                    android:gravity="right|bottom"
+                    android:layout_marginBottom="-5dp"
+                    android:layout_weight="1"
+                    android:textSize="14sp"
+                    android:textColor="@color/ui_text_color"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:id="@+id/curgameName"
+                    android:text=""
+                    android:gravity="right|bottom"
+                    android:textSize="32sp"
+                    android:textColor="@color/ui_text_color"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/appIcon"
+                android:scaleType="fitCenter"
+                android:src="@android:drawable/ic_menu_gallery"
+                android:layout_width="370px"
+                android:layout_height="214px"
+                android:layout_gravity="right|center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="50dp"
+                android:focusable="false"
+                android:contentDescription="icon"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="50dp"
+            android:background="@color/ui_line_color"
+            android:focusable="false" />
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/dgRestriction"
+                android:text="@string/dialog_boxes_restriction"
+                android:paddingLeft="50dp"
+                android:paddingRight="50dp"
+                android:gravity="center"
+                android:textSize="10sp"
+                android:textColor="@color/ui_text_color"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
